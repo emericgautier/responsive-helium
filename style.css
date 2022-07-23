@@ -17,6 +17,29 @@ body {
   background: rgb(29, 29, 29);
   color: rgb(250, 250, 250);
 }
+
+.mouse {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 1500px;
+  mix-blend-mode: difference;
+}
+#cursor {
+  background: #2128bd;
+  width: 14px;
+  height: 14px;
+}
+#mouse1 {
+  background: white;
+  width: 100px;
+  height: 100px;
+}
+#mouse2 {
+  background: rgb(41, 41, 41);
+  width: 200px;
+  height: 200px;
+}
+
 nav {
   display: grid;
   grid-template-columns: 50% 50%;
